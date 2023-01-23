@@ -1,573 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
 
-    <title>Temitope Okesanya</title>
-  </head>
-  <body>
-    <!-- page loader start -->
-    <div class="page-loader">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-    <!-- page loader end -->
-    <!-- background circles start -->
-    <div class="bg-circles">
-      <div class="circle-1"></div>
-      <div class="circle-2"></div>
-      <div class="circle-3"></div>
-      <div class="circle-4"></div>
-    </div>
-    <!-- background circles end -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
-    <!-- overlay starts -->
-    <div class="overlay"></div>
-    <!-- overlay ends -->
-    <!-- main start -->
-    <div class="main hidden">
-      <header class="header">
-        <div class="container">
-          <div class="row flex-end">
-            <button class="nav-toggler"><span></span></button>
-            <nav class="nav">
-              <div class="nav-inner">
+  <title>Temitope Okesanya</title>
+</head>
+
+<body>
+  <!-- page loader start -->
+  <div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <!-- page loader end -->
+  <!-- background circles start -->
+  <div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+  </div>
+  <!-- background circles end -->
+
+  <!-- overlay starts -->
+  <div class="overlay"></div>
+  <!-- overlay ends -->
+  <!-- main start -->
+  <div class="main hidden">
+    <header class="header">
+      <div class="container">
+        <div class="row flex-end">
+          <button class="nav-toggler"><span></span></button>
+          <nav class="nav">
+            <div class="nav-inner">
+              <ul>
+                <li><a href="#home" class="nav-item link-item">home</a></li>
+                <li><a href="#about" class="nav-item link-item">about</a></li>
+                <li>
+                  <a href="#portfolio" class="nav-item link-item">portfolio</a>
+                </li>
+                <li>
+                  <a href="#contact" class="nav-item link-item">contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- home section start -->
+    <section class="home-section align-items-center" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="home-text">
+            <p>Hello, I'm</p>
+            <h1>Temitope Okesanya</h1>
+            <h2>frontend web developer</h2>
+            <a href="#about" class="btn link-item">more about me</a>
+            <a href="#portfolio" class="btn link-item">portfolio</a>
+          </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="images/tes-remove.png" alt="profile-img" class="tes" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+    <!-- about section start -->
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>about me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="images/tes-remove.png" alt="about img" />
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              I am very passionate about technology and innovation. I have
+              1year and 6months experience as a frontend web developer. I have
+              learnt to apply my knowledge to solving problems while learning
+              and building projects.
+            </p>
+            <h3>skills</h3>
+            <div class="skills">
+              <div class="skill-item">html</div>
+              <div class="skill-item">css</div>
+              <div class="skill-item">javascript</div>
+              <div class="skill-item">tailwind</div>
+              <div class="skill-item">React</div>
+              <div class="skill-item">Vue</div>
+              <div class="skill-item">material ui</div>
+              <div class="skill-item">Bootstrap</div>
+              <div class="skill-item">GitHub</div>
+            </div>
+            <div class="about-tabs">
+              <button type="button" class="tab-item active" data-target="#education">
+                education
+              </button>
+              <button type="button" class="tab-item" data-target="#experience">
+                experience
+              </button>
+            </div>
+            <!-- education start -->
+            <div class="tab-content active" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2015 - 2020</span>
+                  <h4>
+                    bachelor of Science - <span>lagos state university</span>
+                  </h4>
+                  <p>
+                    I studied Fishers in the faculty of Science. During my
+                    time as a student, asides being a student, i served as a
+                    Secretory for my department's Independent Electoral
+                    Committees where i screened the students aspiring for
+                    executive positions in the department.
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2013 - 2016</span>
+                  <h4>
+                    secondary school certificate(SSCE) -
+                    <span>Command Day Secondary School, Oshodi.</span>
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            <!-- education end -->
+            <!-- experience start -->
+            <div class="tab-content" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="data">November, 2022 - Present</span>
+
+                  <h4>
+                    Frontend Developer Intern -
+                    <span>Axia Africa</span>
+                  </h4>
+                  <p>
+                    I contribute to building and planning of the main website and other projects. I also maintain the
+                    main website codes.
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="data">July, 2022. </span>
+
+                  <h4>
+                    Assistant Team Lead
+                    <span>Save Haven Project - women techsters group
+                      project</span>
+                  </h4>
+                  <p>
+                    I collaborated with twenty one other ladies to brainstorm
+                    on project topic, design and development of the project.
+                    Developed the success story page using Bootstrap. Assisted
+                    in compiling the final projects together and hosting it on
+                    GitHub.
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="data">December, 202 - March, 2022.</span>
+
+                  <h4>
+                    Software Developement Intern -
+                    <span>thinkMo technology enterprise</span>
+                  </h4>
+                  <p>
+                    Learnt how to create responsive and functional websites
+                    using software development tools. I also learnt to work in
+                    groups and i built solo projects
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- experience end -->
+
+            <a href="https://docs.google.com/document/d/1F-_gF8-q6NfqooAOKhIyVfHxRCuziH39/edit?usp=share_link&ouid=108099425595438649914&rtpof=true&sd=true"
+              class="btn">download cv</a>
+            <a href="#contact" class="btn link-item">contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- portfolio section start -->
+    <section class="portfolio-section sec-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>recent works</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- portfolio items start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="images/port1.png" alt="portfolio item  thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title">Foodieland.</h3>
+            <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Foodieland is website that showcases different food recipes
+                  and how steps to prepare them. It aim is to make it easy for
+                  people to get any recipe they want on a single website. I
+                  project helped my understanding with react hooks and router.
+                </p>
+              </div>
+              <div class="general-info">
                 <ul>
-                  <li><a href="#home" class="nav-item link-item">home</a></li>
-                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>Created - <span>7 Sept 2022</span></li>
                   <li>
-                    <a href="#portfolio" class="nav-item link-item"
-                      >portfolio</a
-                    >
+                    Technologies used - <span>React and Tailwind Css.</span>
                   </li>
+                  <li>Role - <span>Frontend</span></li>
                   <li>
-                    <a href="#contact" class="nav-item link-item">contact</a>
+                    View Online -
+                    <span><a href="https://foodieland-recipes.netlify.app"
+                        target="_blank">foodieland-recipes.netlify.app</a></span>
                   </li>
                 </ul>
               </div>
-            </nav>
-          </div>
-        </div>
-      </header>
-      <!-- home section start -->
-      <section class="home-section align-items-center" id="home">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="home-text">
-              <p>Hello, I'm</p>
-              <h1>Temitope Okesanya</h1>
-              <h2>frontend web developer</h2>
-              <a href="#about" class="btn link-item">more about me</a>
-              <a href="#portfolio" class="btn link-item">portfolio</a>
-            </div>
-            <div class="home-img">
-              <div class="img-box">
-                <img
-                  src="images/tes-remove.png"
-                  alt="profile-img"
-                  class="tes"
-                />
-              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- home section end -->
-      <!-- about section start -->
-      <section class="about-section sec-padding" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="section-title">
-              <h2>about me</h2>
+          <!-- portfolio items end -->
+          <!-- portfolio items start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="images/port6.png" alt="portfolio item  thumbnail" />
             </div>
-          </div>
-          <div class="row">
-            <div class="about-img">
-              <div class="img-box">
-                <img src="images/tes-remove.png" alt="about img" />
-              </div>
-            </div>
-            <div class="about-text">
-              <p>
-                I am very passionate about technology and innovation. I have
-                1year and 6months experience as a frontend web developer. I have
-                learnt to apply my knowledge to solving problems while learning
-                and building projects.
-              </p>
-              <h3>skills</h3>
-              <div class="skills">
-                <div class="skill-item">html</div>
-                <div class="skill-item">css</div>
-                <div class="skill-item">javascript</div>
-                <div class="skill-item">tailwind</div>
-                <div class="skill-item">React</div>
-                <div class="skill-item">material ui</div>
-                <div class="skill-item">Bootstrap</div>
-              </div>
-              <div class="about-tabs">
-                <button
-                  type="button"
-                  class="tab-item active"
-                  data-target="#education"
-                >
-                  education
-                </button>
-                <button
-                  type="button"
-                  class="tab-item"
-                  data-target="#experience"
-                >
-                  experience
-                </button>
-              </div>
-              <!-- education start -->
-              <div class="tab-content active" id="education">
-                <div class="timeline">
-                  <div class="timeline-item">
-                    <span class="date">2015 - 2020</span>
-                    <h4>
-                      bachelor of Science - <span>lagos state university</span>
-                    </h4>
-                    <p>
-                      I studied Fishers in the faculty of Science. During my
-                      time as a student, asides being a student, i served as a
-                      Secretory for my department's Independent Electoral
-                      Committees where i screened the students aspiring for
-                      executive positions in the department.
-                    </p>
-                  </div>
-                  <div class="timeline-item">
-                    <span class="date">2013 - 2016</span>
-                    <h4>
-                      secondary school certificate(SSCE) -
-                      <span>Command Day Secondary School, Oshodi.</span>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-
-              <!-- education end -->
-              <!-- experience start -->
-              <div class="tab-content" id="experience">
-                <div class="timeline">
-                  <div class="timeline-item">
-                    <span class="data">May, 2022 - Present</span>
-
-                    <h4>
-                      junior web development instructor -
-                      <span>Future basic technology</span>
-                    </h4>
-                    <p>
-                      As an instructor, i train aspiring web developers on basic
-                      skills needed. I teach HTML, CSS AND JAVASCRIPT. I make
-                      sure to teach using practical examples by using figma
-                      design and real life case studies.
-                    </p>
-                  </div>
-                  <div class="timeline-item">
-                    <span class="data">July, 2020</span>
-
-                    <h4>
-                      Assistant Team Lead
-                      <span
-                        >Save Haven Project - women techsters group
-                        project</span
-                      >
-                    </h4>
-                    <p>
-                      I collaborated with twenty one other ladies to brainstorm
-                      on project topic, design and development of the project.
-                      Developed the success story page using Bootstrap. Assisted
-                      in compiling the final projects together and hosting it on
-                      GitHub.
-                    </p>
-                  </div>
-                  <div class="timeline-item">
-                    <span class="data">March, 2022 - June, 2022.</span>
-
-                    <h4>
-                      Software Developement Intern -
-                      <span>thinkMo technology enterprise</span>
-                    </h4>
-                    <p>
-                      Learnt how to create responsive and functional websites
-                      using software development tools. I also learnt to work in
-                      groups and i built solo projects
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- experience end -->
-
-              <a
-                href="https://drive.google.com/file/d/1fBxgm7RefzQBRkmvWkhfi1e6UEybP8J1/view?usp=share_link"
-                class="btn"
-                >download cv</a
-              >
-              <a href="#contact" class="btn link-item">contact me</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- about section end -->
-
-      <!-- portfolio section start -->
-      <section class="portfolio-section sec-padding" id="portfolio">
-        <div class="container">
-          <div class="row">
-            <div class="section-title">
-              <h2>recent works</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- portfolio items start -->
-            <div class="portfolio-item">
-              <div class="portfolio-item-thumbnail">
-                <img src="images/port1.png" alt="portfolio item  thumbnail" />
-              </div>
-              <h3 class="portfolio-item-title">Foodieland.</h3>
-              <button type="button" class="btn view-project-btn">
-                view project
-              </button>
-              <div class="portfolio-item-details">
-                <div class="description">
-                  <p>
-                    Foodieland is website that showcases different food recipes
-                    and how steps to prepare them. It aim is to make it easy for
-                    people to get any recipe they want on a single website. I
-                    project helped my understanding with react hooks and router.
-                  </p>
-                </div>
-                <div class="general-info">
-                  <ul>
-                    <li>Created - <span>4 Sept 2022</span></li>
-                    <li>
-                      Technologies used - <span>React and Tailwind Css.</span>
-                    </li>
-                    <li>Role - <span>Frontend</span></li>
-                    <li>
-                      View Online -
-                      <span
-                        ><a href="https://foodieland-recipes.netlify.app" target="_blank"
-                          >foodieland-recipes.netlify.app</a
-                        ></span
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- portfolio items end -->
-            <!-- portfolio items start -->
-            <div class="portfolio-item">
-              <div class="portfolio-item-thumbnail">
-                <img src="images/port6.png" alt="portfolio item  thumbnail" />
-              </div>
-              <h3 class="portfolio-item-title">a cake website</h3>
-              <button type="button" class="btn view-project-btn">
-                view project
-              </button>
-              <div class="portfolio-item-details">
-                <div class="description">
-                  <p>
-                    Tee's Bakery is a website for a cake company that offers
-                    services for cake on all occassions. The website allows
-                    customers know all details of the company and allows orders
-                    to be placed on the website.
-                  </p>
-                </div>
-                <div class="general-info">
-                  <ul>
-                    <li>Created - <span>12 Aug 2022</span></li>
-                    <li>
-                      Technologies used - <span>React and Tailwind Css</span>
-                    </li>
-                    <li>Role - <span>Frontend</span></li>
-                    <li>
-                      View Online -
-                      <span
-                        ><a href="#" target="_blank">Teesbakeshop.com</a></span
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- portfolio items end -->
-            <!-- portfolio items start -->
-            <div class="portfolio-item">
-              <div class="portfolio-item-thumbnail">
-                <img src="images/port3.png" alt="portfolio item  thumbnail" />
-              </div>
-              <h3 class="portfolio-item-title">a todo webapp</h3>
-              <button type="button" class="btn view-project-btn">
-                view project
-              </button>
-              <div class="portfolio-item-details">
-                <div class="description">
-                  <p>
-                    This is a todo web app that allows users to state their
-                    plans for a period of time. It allows users to add and
-                    delete items at ease.
-                  </p>
-                </div>
-                <div class="general-info">
-                  <ul>
-                    <li>Created - <span>4 Dec 2020</span></li>
-                    <li>Technologies used - <span>React and Css</span></li>
-                    <li>Role - <span>Frontend</span></li>
-                    <li>
-                      View Online -
-                      <span
-                        ><a href="#" target="_blank"
-                          >www.foodieland.com</a
-                        ></span
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- portfolio items end -->
-            <!-- portfolio items start -->
-            <div class="portfolio-item">
-              <div class="portfolio-item-thumbnail">
-                <img src="images/port2.png" alt="portfolio item  thumbnail" />
-              </div>
-              <h3 class="portfolio-item-title">Save Haven</h3>
-              <button type="button" class="btn view-project-btn">
-                view project
-              </button>
-              <div class="portfolio-item-details">
-                <div class="description">
-                  <p>
-                    Save haven is a website is a project based on Gender
-                    inequality (an SDG goal). It is a website provides
-                    protection for females that are being multilated and abused.
-                    This was a project i took part in during my time as an
-                    assistant team lead at women techsters bootcamp.
-                  </p>
-                </div>
-                <div class="general-info">
-                  <ul>
-                    <li>Created - <span>4 Dec 2020</span></li>
-                    <li>
-                      Technologies used -
-                      <span>Html, Bootstrap and Javascript</span>
-                    </li>
-                    <li>
-                      Role - <span>Frontend and Assistant Team Lead</span>
-                    </li>
-                    <li>
-                      View Online -
-                      <span
-                        ><a
-                          href="https://tech4dev-bootcamp.github.io/cohort-2-group1-safe-heaven/index.html"
-                          >www.foodieland.com</a
-                        ></span
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- portfolio items end -->
-            <!-- portfolio items start -->
-            <div class="portfolio-item">
-              <div class="portfolio-item-thumbnail">
-                <img src="images/port4.png" alt="portfolio item  thumbnail" />
-              </div>
-              <h3 class="portfolio-item-title">a tour website</h3>
-              <button type="button" class="btn view-project-btn">
-                view project
-              </button>
-              <div class="portfolio-item-details">
-                <div class="description">
-                  <p>
-                    Natours project is a simple landing page for a tour website.
-                    It showcases the details about the company and packages that
-                    they offer. It also allows users to make inquires and book
-                    for tours.
-                  </p>
-                </div>
-                <div class="general-info">
-                  <ul>
-                    <li>Created - <span>4 Dec 2020</span></li>
-                    <li>Technologies used - <span>Html, Css and Scss</span></li>
-                    <li>Role - <span>Frontend</span></li>
-                    <li>
-                      View Online -
-                      <span
-                        ><a href="#" target="_blank"
-                          >www.foodieland.com</a
-                        ></span
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- portfolio items end -->
-            <!-- portfolio items start -->
-            <div class="portfolio-item">
-              <div class="portfolio-item-thumbnail">
-                <img src="images/port5.png" alt="portfolio item  thumbnail" />
-              </div>
-              <h3 class="portfolio-item-title">a guess game webapp</h3>
-              <button type="button" class="btn view-project-btn">
-                view project
-              </button>
-              <div class="portfolio-item-details">
-                <div class="description">
-                  <p>
-                    This is a simple game. It allows players guess a number that
-                    is automatically generated and detects if the player guesses
-                    right or wrong.
-                  </p>
-                </div>
-                <div class="general-info">
-                  <ul>
-                    <li>Created - <span>4 Dec 2020</span></li>
-                    <li>
-                      Technologies used - <span>Javascript, Html and Css</span>
-                    </li>
-                    <li>Role - <span>Frontend</span></li>
-                    <li>
-                      View Online -
-                      <span
-                        ><a href="#" target="_blank"
-                          >www.foodieland.com</a
-                        ></span
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <!-- portfolio items end -->
-          </div>
-        </div>
-      </section>
-      <!-- portfolio section end -->
-      <!-- contact section start -->
-      <section class="contact-section sec-padding" id="contact">
-        <div class="container">
-          <div class="row">
-            <div class="section-title">
-              <h2>contact me</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="contact-form">
-              <form method="POST" action="mailto:themyturpeokesanya@gmail.com">
-                <div class="row">
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      placeholder="Name"
-                      required
-                      class="input-control"
-                    />
-                  </div>
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      placeholder="Email"
-                      required
-                      class="input-control"
-                    />
-                  </div>
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      placeholder="Subject"
-                      required
-                      class="input-control"
-                    />
-                  </div>
-                  <div class="input-group">
-                    <textarea
-                      placeholder="Message"
-                      class="input-control"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="submit-btn">
-                    <button type="submit" value="Submit" class="btn">
-                      send message
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="contact-info">
-              <div class="contact-info-item">
-                <h3>Email</h3>
-                <p>themyturpeokesanya@gmail.com</p>
-              </div>
-              <div class="contact-info-item">
-                <h3>Phone</h3>
-                <p>09075228079</p>
-              </div>
-              <div class="contact-info-item">
-                <h3>Follow me</h3>
-                <div class="social-links">
-                  <a
-                    href="http://linkedin.com/in/temitope-okesanya-285272169"
-                    target="_blank"
-                    class="social-icons"
-                    ><i class="bx bxl-linkedin icons"></i
-                  ></a>
-                  <a href="https://twitter.com/Teymmiee" class="social-icons"
-                    ><i class="bx bxl-twitter icons"></i
-                  ></a>
-                  <a href="https://codepen.io/Temmylee" class="social-icons"
-                    ><i class="bx bxl-codepen icons"></i
-                  ></a>
-                  <a href="https://github.com/Temyturpe" class="social-icons"
-                    ><i class="bx bxl-github icons"></i
-                  ></a>
-                  <a
-                    href="https://web.facebook.com/temitope.okesanya"
-                    class="social-icons"
-                    ><i class="bx bxl-facebook icons"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- contact section end -->
-    </div>
-    <!-- main end -->
-
-    <!-- portfolio item details popup start -->
-    <div class="portfolio-popup">
-      <div class="pp-inner">
-        <div class="pp-content">
-          <div class="pp-header">
-            <button type="button" class="btn pp-close">
-              <i class="bx bx-x"></i>
+            <h3 class="portfolio-item-title">Tee's Bakery</h3>
+            <button type="button" class="btn view-project-btn">
+              view project
             </button>
-            <div class="pp-thumbnail">
-              <img src="images/port4.png" alt="pp-thumbnail" />
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Tee's Bakery is a website for a cake company that offers
+                  services for cake on all occassions. The website allows
+                  customers know all details of the company and allows orders
+                  to be placed on the website.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>January 2023-(still building)</span></li>
+                  <li>
+                    Technologies used - <span>React and Tailwind Css</span>
+                  </li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>
+                    View Online -
+                    <span><a href="#" target="_blank">tee-bakeshop.netlify.app/</a></span>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <h3></h3>
           </div>
-          <div class="pp-body"></div>
+          <!-- portfolio items end -->
+          <!-- portfolio items start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="images/port3.png" alt="portfolio item  thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title">a todo webapp</h3>
+            <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  This is a todo web app that allows users to state their
+                  plans for a period of time. It allows users to add and
+                  delete items at ease.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>June 2022</span></li>
+                  <li>Technologies used - <span>React and Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>
+                    View Online -
+                    <span><a href="https://temitope-todo-app.netlify.app/" target="_blank">Todo-app.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio items end -->
+          <!-- portfolio items start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="images/port2.png" alt="portfolio item  thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title">Safe Haven</h3>
+            <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Safe haven is a project based on Gender inequality (an SDG goal). It is a website that provides
+                  protection for females that are being mutilated and abused. This was a project I contributed to as an
+                  assistant team lead at women techsters bootcamp.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>July 2022</span></li>
+                  <li>
+                    Technologies used -
+                    <span>Html, Bootstrap and Javascript</span>
+                  </li>
+                  <li>
+                    Role - <span>Frontend and Assistant Team Lead</span>
+                  </li>
+                  <li>
+                    View Online -
+                    <span><a
+                        href="https://tech4dev-bootcamp.github.io/cohort-2-group1-safe-heaven/index.html">www.savehaven.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio items end -->
+          <!-- portfolio items start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="images/port4.png" alt="portfolio item  thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title">a tour website</h3>
+            <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  Natours project is a simple landing page for a tour website.
+                  It showcases the details about the company and packages that
+                  they offer. It also allows users to make inquires and book
+                  for tours.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2021</span></li>
+                  <li>Technologies used - <span>Html, Css and Scss</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>
+                    View Online -
+                    <span><a href="https://natours-holiday.netlify.app/" target="_blank">www.natours.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio items end -->
+          <!-- portfolio items start -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="images/port5.png" alt="portfolio item  thumbnail" />
+            </div>
+            <h3 class="portfolio-item-title">a guess game webapp</h3>
+            <button type="button" class="btn view-project-btn">
+              view project
+            </button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  This is a simple game. It allows players guess a number that
+                  is automatically generated and detects if the player guesses
+                  right or wrong.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2020</span></li>
+                  <li>
+                    Technologies used - <span>Javascript, Html and Css</span>
+                  </li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>
+                    View Online -
+                    <span><a href="https://temi-guess-game.netlify.app/" target="_blank">www.guess.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio items end -->
         </div>
       </div>
+    </section>
+    <!-- portfolio section end -->
+    <!-- contact section start -->
+    <section class="contact-section sec-padding" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>contact me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form method="POST" action="https://formspree.io/f/mbjelozb">
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" placeholder="Name" name='name' required class="input-control" />
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Email" name="email" required class="input-control" />
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Subject" name="subject" required class="input-control" />
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="Message" class="input-control" name="message" required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button type="submit" value="Submit" class="btn">
+                    send message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <h3>Email</h3>
+              <p>themyturpeokesanya@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>Phone</h3>
+              <p>09075228079</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>Follow me</h3>
+              <div class="social-links">
+                <a href="http://linkedin.com/in/temitope-okesanya-285272169" target="_blank" class="social-icons"><i
+                    class="bx bxl-linkedin icons"></i></a>
+                <a href="https://twitter.com/Teymmiee" class="social-icons"><i class="bx bxl-twitter icons"></i></a>
+                <a href="https://codepen.io/Temmylee" class="social-icons"><i class="bx bxl-codepen icons"></i></a>
+                <a href="https://github.com/Temyturpe" class="social-icons"><i class="bx bxl-github icons"></i></a>
+                <a href="https://web.facebook.com/temitope.okesanya" class="social-icons"><i
+                    class="bx bxl-facebook icons"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+  </div>
+  <!-- main end -->
+
+  <!-- portfolio item details popup start -->
+  <div class="portfolio-popup">
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <button type="button" class="btn pp-close">
+            <i class="bx bx-x"></i>
+          </button>
+          <div class="pp-thumbnail">
+            <img src="images/port4.png" alt="pp-thumbnail" />
+          </div>
+          <h3></h3>
+        </div>
+        <div class="pp-body"></div>
+      </div>
     </div>
-    <!-- portfolio item details popup end-->
-    <script src="js/script.js"></script>
-  </body>
+  </div>
+  <!-- portfolio item details popup end-->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
